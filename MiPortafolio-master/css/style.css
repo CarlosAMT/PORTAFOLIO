@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: deepskyblue;
+}
+ul li{
+    color: rebeccapurple;
+}
+#Nav bar{
+
+   float: left;
+    padding: 10px;
+}
+.Contenedor{
+    margin: 0;
+    max-width: 1024px;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+}
+.Logo{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.Texto-menu{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#MostrarSlider{
+    background-image: url(../img/slider.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover 40vh;
+    background-position: center;
+    height:40px ;
+    width: 50 px;
+}
+
+#MostrarSlider h1{
+    padding: ;
+    text-align: ;
+color: bisque;
+}
+
+p.Perfil{
+    font-size: 24px;
+}
+
+#MostrarSlider .Slider-DatosPersonales{
+    background-color: black;
+}
+
+#Portafolio{
+    text-align: center;
+    padding-right:  30px;
+}
+
+
+#Portafolio .portafolio-nav{
+    display: table;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+#Portafolio ul{
+    list-style: none;
+    float: right;
+}
+
+#Portafolio ul li{
+    list-style: none;
+    float: right;
+}
+#Portafolio ul li a{
+   padding: 20px;
+   text-align: center;
+   display: block;
+   text-decoration: none ;
+}
+
+#Portafolio ul li a:hover{
+    background-color: brown;
+}
